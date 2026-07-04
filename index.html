@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammed-binanu portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+     integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2 class="logo"><b class="red">M</b><span>uhammed</span></h2>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, i'm <span>Muhammed</span>
+                    <br> Binanu From Nigeria
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!--ABOUT-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/AI_Image_1782923379643.jpg" width="100px" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"><i>About me</i></h1>
+                    <p>My Name is Muhammed Binanu, i am from Edo State Nigeria,
+                        <br>
+                        i am a 17 year old Programmer and Web
+                        developer and i Base in
+                        <br>
+                        Lagos State Nigeria And also attend the lagos state university of science and technology "LASUSTECH"
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Design Web/App interfaces</li>
+                            <li><span>Web development</span><br>Web app development</li>
+                            <li><span>App development</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2025 - 2026</span><br>App design traning for 2 years</li>
+                            <li><span>2024 - 2026</span><br>Graphics design traning for 3 years</li>
+                            <li><span>2025 - 2026</span><br>Web development traning for 2 years</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025 - 2026</span><br>Web app development traning at Enouch tech ventures</li>
+                            <li><span>2026</span><br>100 level student of computer science at Lasustech </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--SERVICES-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"><i>My Services</i></h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id numquam commodi illo reprehenderit
+                        cupiditate fugit consequuntur ipsa placeat a aliquid nemo nesciunt, dolore ipsam! Molestiae
+                        ratione est vitae in magnam.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id numquam commodi illo reprehenderit
+                        cupiditate fugit consequuntur ipsa placeat a aliquid nemo nesciunt, dolore ipsam! Molestiae
+                        ratione est vitae in magnam.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id numquam commodi illo reprehenderit
+                        cupiditate fugit consequuntur ipsa placeat a aliquid nemo nesciunt, dolore ipsam! Molestiae
+                        ratione est vitae in magnam.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------PORFOLIO-------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"><em>My Work</em></h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/image6.jpg" alt="">
+                    <div class="layer">
+                        <h3>Full Responsive web site</h3>
+                        <p>i created the project to taste my skill for responsive Website</p>
+                        <a href="https://fullresponsivewebbsite.netlify.app"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/image11.png" alt="">
+                    <div class="layer">
+                        <h3>Todo List</h3>
+                        <p>just a sample of a signup and signin interfaces project for website</p>
+                        <a href="https://muhammedbinanu-todolist.netlify.app"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/image7.jpg" alt="">
+                    <div class="layer">
+                        <h3>Quiz gaming app</h3>
+                        <p>a quiz gaming web site for question and answers about coding and other related questions to programing </p>
+                        <a href="https://spotlight.netlify.app"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#see-more" class="btn">See more</a>
+        </div>
+    </div>
+    <!--------CONTACTT------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"> Contact Me</h1>
+                    <p><i class="bi bi-chat-right-text-fill"></i>muhammedbinanu@gmail.com</p>
+                    <p><i class="fa-duotone fa-solid fa-phone"></i> 08167355014</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#https://twitter.com/"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="#https://instgram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="" download class="btn btn2">download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-goggle-sht" id="submit-to-goggle-sheet">
+                        <input type="text" name="Name" placeholder="Your Name">
+                        <input type="email" name="Email" placeholder="Your Emial" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright @ Muhammed. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <script src="javascript.js"></script>
+</body>
+</html>
